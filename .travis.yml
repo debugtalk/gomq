@@ -13,7 +13,7 @@ before_install:
         - ( cd czmq; ./autogen.sh; ./configure; make check; sudo make install; sudo ldconfig )
 
 install:
-        - go get github.com/zeromq/gomq/zmtp
-        - go get github.com/zeromq/gomq
+        - go get github.com/debugtalk/gomq/zmtp
+        - go get github.com/debugtalk/gomq
 script:
         - go test -v .

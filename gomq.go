@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zeromq/gomq/zmtp"
+	"github.com/debugtalk/gomq/zmtp"
 )
 
 type ErrBadProto string
